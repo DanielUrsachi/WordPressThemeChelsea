@@ -1,0 +1,54 @@
+.contact_email{
+    h5{
+      font-family: Lato;
+      font-weight: 700;
+      color: #dfaea2;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    a{
+      font-family: Lato;
+      font-weight: 300;
+      color: #404040;
+      font-size: 11px;
+      text-decoration: none;
+      text-transform: none;
+
+    }
+
+}
+.contact-form{
+  sup{
+    display: none;
+  }
+  input[type="submit"]{
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: 42px;
+    font-family: Lato;
+    font-size: 9px;
+    color: white;
+    background-color: #b5b6b7;
+    box-shadow: none;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 4px;
+  }
+  padding-bottom: 20px;
+}
+
+
+
+
+.page p{
+  margin: 24px;
+  font-family: Lato;
+}
+
+.wrap-forms{
+  padding-right: 20px;
+  padding-left: 20px;
+}

@@ -1,0 +1,165 @@
+#comments{
+  .comentarii{
+    box-shadow: 0 5px 10px #f7f7f7;
+    background-color: white;
+    .form-submit #submit{
+      margin: 0 auto;
+      display: block;
+      width: 25%;
+      height: 42px;
+      font-family: Lato;
+      font-size: 9px;
+      color: white;
+      background-color: #b5b6b7;
+      box-shadow: none;
+      border: none;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 300;
+      border-radius: 4px;
+
+    }
+  }
+  .entry-title{
+    text-align: center;
+    .comments-title{
+      display: inline-block;
+      background-color: white;
+      padding-left: 17px;
+      padding-right: 17px;
+      font-size: 20px;
+      font-family: Lora;
+      font-weight: 400;
+    }
+  }
+  article{
+    position: relative;
+    margin-top: 20px;
+    //border-bottom: 1px dashed silver;
+    background: url(../img/minus.png) repeat-x bottom;
+  }
+
+  .comment-author.vcard {
+    img{  //imaginea
+      position: absolute;
+      width: 70px;
+      border-radius: 50% ;
+    }
+    .fn { //Numele
+      margin-left: 100px;
+      font-family: Lato;
+      font-weight: 800;
+      font-size: 11px;
+      color: #2f2e2e;
+      text-transform: uppercase;
+      a{
+        text-decoration: none;
+      }
+    }
+    .says{
+      display: none;
+    }
+
+  }
+
+    .comment-metadata a{  //data
+      margin-left: 100px;
+      font-family: Lato;
+      font-weight: 300;
+      color: #bbbbbb;
+      text-decoration: none;
+      font-size: 12px;
+
+    }
+    .comment-content{ //content
+      margin-left: 100px;
+      font-family: Lato;
+      font-weight: 300;
+      color: #4f4c4d;
+      font-size: 14px;
+
+    }
+
+    .reply{ //reply
+      position: absolute;
+      top: 8px;
+      right: 0px;
+      overflow: hidden;
+
+      a { //textul-reply
+        float: right;
+        color: #8a8b8e;
+        font-size: 10px;
+        font-family: Lato;
+        font-weight: 300;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+    }
+
+  .comment-list{
+    margin-bottom: 50px;
+    margin-left: 0px;
+    padding-right: 40px;
+    li {
+      list-style: none;
+    }
+  }
+
+
+
+  //FORMS
+  .forms{
+     margin-top: 40px;
+    box-shadow: 0 5px 10px #f7f7f7;
+    #reply-title, .comment-notes{
+      display: none;
+    }
+    #respond{
+      form{
+        .fw-col-sm-4{
+          span{
+            display: none;
+          }
+          p{
+            input{
+              width: 100%;
+            }
+          }
+        }
+        .form-submit{
+          #submit{
+            margin: 0 auto;
+            display: block;
+            width: 25%;
+            height: 42px;
+            font-family: Lato;
+            font-size: 9px;
+            color: white;
+            background-color: #262627;
+            box-shadow: none;
+            border: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 300;
+            border-radius: 4px;
+            transition: all .3s ease;
+            &:hover{
+              background-color:  #dda89b;
+              box-shadow: none;
+            }
+
+          }
+        }
+      }
+
+
+
+
+    }
+
+  }
+
+
+}

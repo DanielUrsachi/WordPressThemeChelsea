@@ -1,0 +1,93 @@
+
+.logo{
+  font-family: Mistral;
+  text-align: center;
+  font-size: 75px;
+  color: #2f2e2e !important;
+  text-decoration: none;
+}
+.logoarea{
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+
+  .logo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .icons{
+    height: 112px;
+  }
+}
+.searchform{
+  height: 112px;
+  .search-form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .insidesearch{
+      margin: 0 auto;
+      border: 2px solid #eeeded;
+      border-radius: 17px;
+      //box-shadow: 1px 1px 20px 20px rgba(221, 168, 155, 0.08);
+      &:hover{
+        border: 2px solid #dda89b;
+        box-shadow: 4px 4px 12px 5px rgba(221, 168, 155, 0.08);
+      }
+      .search-field, .search-submit{
+        border: none;
+        background: none;
+        box-shadow: none;
+        border-radius: 17px;
+
+
+      }
+      .search-submit{
+        padding: 0px;
+        height: 30px;
+        width:  30px;
+        vertical-align: top;
+        background-color: #eeeded ;
+        color: white;
+        &:hover{
+          background-color: #dda89b;
+        }
+      }
+
+    }
+  }
+
+
+
+}
+
+//menu
+#primary-menu{
+  text-align: center;
+  border-top: 1px solid #eeeded;
+  border-bottom: 1px solid #eeeded;
+  @include box-shadow();
+  background-color: white;
+  li{
+    display: inline-block;
+    float:none;
+    padding-right: 29px;
+    padding-left: 29px;
+    margin-bottom: 27px;
+    margin-top: 27px;
+    background:url('/UnderWordpress0/wp-content/uploads/2016/11/separator.png') no-repeat left;
+    &:nth-child(1){
+      background-image: none;
+    }
+    a{
+      font-size: 11px;
+      color: #2f2e2e;
+      font-weight: 800;
+      font-family: 'Lato', sans-serif;
+      letter-spacing: 2px;
+
+    }
+  }
+}
+
+

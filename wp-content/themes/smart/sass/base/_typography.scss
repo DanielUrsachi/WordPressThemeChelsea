@@ -1,0 +1,52 @@
+//importFonts!!
+//Lato
+@import url('https://fonts.googleapis.com/css?family=Lato');
+//Lora, Lora Italic
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700');
+//Flaticons
+@import "/UnderWordpress0/wp-content/themes/smart/icons/font/flaticon.css";
+
+//Mistral
+@font-face {
+  font-family: Mistral;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Mistral.ttf);
+}
+
+//Rage
+@font-face {
+  font-family: Rage;
+  src: url(../fonts/Rage_Italic.ttf);
+}
+
+//icons
+.icons{
+  text-align: left;
+  &>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  ul{
+    list-style: none ;
+    padding-left: 0px;
+    margin: 0 auto;
+    text-align: center;
+
+    li{
+      display: inline-block;
+      a{
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #2f2e2e;
+        i:before{
+          font-size: 16px;
+          margin-left: 0px !important;
+        }
+      }
+
+    }
+  }
+}

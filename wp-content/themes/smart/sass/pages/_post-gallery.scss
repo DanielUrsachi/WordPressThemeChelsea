@@ -1,0 +1,68 @@
+.single-format-gallery{
+  .gallery-columns-1{ //pentru postGallery
+
+    .gallery-item:nth-child(1){
+      width: 40%;
+      .gallery-icon.landscape{
+        margin-right: 4px;
+        margin-bottom: 4px;
+      }
+      img{
+        height: 320px;
+      }
+
+    }
+    .gallery-item:nth-child(2){
+      width: 60%;
+      .gallery-icon.landscape{
+        margin-bottom: 4px;
+      }
+      img{
+        height: 320px;
+      }
+
+    }
+    .gallery-item:nth-child(3){
+      width: 100%;
+      .gallery-icon.landscape{
+        margin-bottom: 4px;
+      }
+      img{
+        height: 385px;
+      }
+    }
+    .gallery-item:nth-child(4){
+      width: 50%;
+      .gallery-icon.landscape{
+        margin-right: 4px;
+        margin-bottom: 4px;
+      }
+      img{
+        height: 225px;
+      }
+    }
+    .gallery-item:nth-child(5){
+      width: 50%;
+      .gallery-icon.landscape{
+        margin-bottom: 4px;
+      }
+      img{
+        height: 225px;
+      }
+    }
+    .gallery-item{
+      margin: 0px;
+    }
+
+
+    a img{
+      width:100%;
+
+      min-height: 100% !important;
+      object-fit: cover;
+
+
+
+    }
+  }
+}
